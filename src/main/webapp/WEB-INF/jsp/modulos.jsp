@@ -40,7 +40,7 @@
                     <div class="" style="min-height: 640px">
                         <div class="page-title">
                             <div class="title_left">
-                                <h4>MODULOS DE ACCESO AL SISTEMA <small>SIADI</small></h4>
+                                <h4>MODULOS DE ACCESO AL SISTEMA <small>SIF</small></h4>
                             </div>
                             <div class="title_right">
                                 <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">

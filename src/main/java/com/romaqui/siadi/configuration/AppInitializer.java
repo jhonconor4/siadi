@@ -7,7 +7,7 @@ package com.romaqui.siadi.configuration;
 
 /**
  *
- * @author NERIO
+ * @author Roca
  */
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

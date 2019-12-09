@@ -1,7 +1,7 @@
 <%-- 
     Document   : login
-    Created on : 05/09/2016, 04:11:32 PM
-    Author     : nerio
+    Created on : 05/09/2019, 04:11:32 PM
+    Author     : roca
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -55,8 +55,8 @@
                                 <div class="clearfix"></div>
                                 <br>
                                 <div>
-                                    <h1><i class="fa fa-paw" style="font-size: 26px;"></i> SIADI!</h1>
-                                    <p>©2015 Todos los derechos reservados ROMAQUI E.I.R.L</p>
+                                    <h1><i class="fa fa-paw" style="font-size: 26px;"></i> SIF!</h1>
+                                    <p>©2019 Todos los derechos reservados ROCA E.I.R.L</p>
                                 </div>
                             </div>
                         </form>

@@ -53,7 +53,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 /**
  *
- * @author nerio
+ * @author Roca
  */
 @Controller("acompraController")
 @RequestMapping("almacen/compra")

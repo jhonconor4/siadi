@@ -7,7 +7,7 @@ package com.romaqui.siadi.configuration;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 import com.romaqui.siadi.interceptor.AccessInterceptor;
 import com.romaqui.siadi.interceptor.InventarioInterceptor;
