@@ -1,8 +1,4 @@
-<%-- 
-    Document   : marca
-    Created on : 22/08/2016, 04:27:38 PM
-    Author     : nerio
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

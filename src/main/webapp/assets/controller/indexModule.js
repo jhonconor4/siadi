@@ -266,7 +266,7 @@ angular.module("indexModule", ['ngValidate', 'components', 'dirPagination'])
                         ruc: {
                             required: "Campo obligatorio",
                             minlength: "Minimo de {0} digitos son permitidos",
-                            maxlength: "Maximo de {0} digitos son permitidos"
+                            maxlength: "Maximo de {11} digitos son permitidos"
                         },
                         razonsocial: {
                             required: "Campo obligatorio"
@@ -274,7 +274,7 @@ angular.module("indexModule", ['ngValidate', 'components', 'dirPagination'])
                         telefono: {
                             required: "Campo obligatorio",
                             minlength: "Minimo de {0} digitos son permitidos",
-                            maxlength: "Maximo de {0} digitos son permitidos"
+                            maxlength: "Maximo de {6} digitos son permitidos"
                         },
                         direccion: {
                             required: "Campo obligatorio"
@@ -445,7 +445,7 @@ angular.module("indexModule", ['ngValidate', 'components', 'dirPagination'])
                         dni: {
                             required: "Campo obligatorio",
                             minlength: "Ingrese {0} caracteres",
-                            maxlength: "Ingrese {0} caracteres"
+                            maxlength: "Ingrese {8} caracteres"
                         },
                         nombre: {
                             required: "Campo obligatorio"
@@ -459,13 +459,13 @@ angular.module("indexModule", ['ngValidate', 'components', 'dirPagination'])
                         celular: {
                             required: "Campo obligatorio",
                             minlength: "Ingrese un minimo de {0} caracteres",
-                            maxlength: "Ingrese un maximo de {0} caracteres"},
+                            maxlength: "Ingrese un maximo de {9} caracteres"},
                         email: {
                             email: "Ingrese un email valido"
                         },
                         ruc: {
                             minlength: "Ingrese {0} caracteres",
-                            maxlength: "Ingrese {0} caracteres"
+                            maxlength: "Ingrese {11} caracteres"
                         },
                         direccion: {
                             required: "Campo obligatorio"
@@ -623,7 +623,7 @@ angular.module("indexModule", ['ngValidate', 'components', 'dirPagination'])
                         dni: {
                             required: "Campo obligatorio",
                             minlength: "Ingrese {0} caracteres",
-                            maxlength: "Ingrese {0} caracteres"
+                            maxlength: "Ingrese {8} caracteres"
                         },
                         nombre: {
                             required: "Campo obligatorio"
@@ -637,7 +637,7 @@ angular.module("indexModule", ['ngValidate', 'components', 'dirPagination'])
                         celular: {
                             required: "Campo obligatorio",
                             minlength: "Ingrese un minimo de {0} caracteres",
-                            maxlength: "Ingrese un maximo de {0} caracteres"},
+                            maxlength: "Ingrese un maximo de {9} caracteres"},
                         email: {
                             email: "Ingrese un email valido"
                         },

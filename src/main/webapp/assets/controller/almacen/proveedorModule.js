@@ -236,8 +236,8 @@ angular.module('proveedorModule', ['ngValidate', 'dirPagination', 'components'])
                         },
                         dni: {
                             required: 'Campo obligatorio',
-                            minlength: 'Minimo de {0} digitos son permitidos',
-                            maxlength: 'Maximo de {0} digitos son permitidos'
+                            minlength: 'Minimo de {8} digitos son permitidos',
+                            maxlength: 'Maximo de {8} digitos son permitidos'
                         },
                         nombre: {
                             required: 'Campo obligatorio'
@@ -250,8 +250,8 @@ angular.module('proveedorModule', ['ngValidate', 'dirPagination', 'components'])
                         },
                         celular: {
                             required: 'Campo obligatorio',
-                            minlength: 'Minimo de {0} digitos son permitidos',
-                            maxlength: 'Maximo de {0} digitos son permitidos'
+                            minlength: 'Minimo de {9} digitos son permitidos',
+                            maxlength: 'Maximo de {9} digitos son permitidos'
                         },
                         genero: {
                             required: 'Campo obligatorio'
@@ -261,8 +261,8 @@ angular.module('proveedorModule', ['ngValidate', 'dirPagination', 'components'])
                         },
                         ruc: {
                             required: 'Campo obligatorio',
-                            minlength: 'Minimo de {0} digitos son permitidos',
-                            maxlength: 'Maximo de {0} digitos son permitidos'
+                            minlength: 'Minimo de {11} digitos son permitidos',
+                            maxlength: 'Maximo de {11} digitos son permitidos'
                         },
                         direccion: {
                             required: 'Campo obligatorio'
@@ -562,7 +562,12 @@ angular.module('proveedorModule', ['ngValidate', 'dirPagination', 'components'])
                             required: true
                         },
                         telefono: {
-                            minlength: 6,
+                            minlength: 9,
+                            maxlength: 9
+                        },
+                        ruc: {
+                            required: true,
+                            minlength: 11,
                             maxlength: 11
                         },
                         email: {
@@ -572,8 +577,8 @@ angular.module('proveedorModule', ['ngValidate', 'dirPagination', 'components'])
                     messages: {
                         dni: {
                             required: 'Campo obligatorio',
-                            minlength: 'Minimo de {0} digitos son permitidos',
-                            maxlength: 'Maximo de {0} digitos son permitidos'
+                            minlength: 'Minimo de {8} digitos son permitidos',
+                            maxlength: 'Maximo de {8} digitos son permitidos'
                         },
                         nombre: {
                             required: 'Campo obligatorio'
@@ -588,8 +593,8 @@ angular.module('proveedorModule', ['ngValidate', 'dirPagination', 'components'])
                             required: 'Campo obligatorio'
                         },
                         telefono: {
-                            minlength: 'Minimo de {0} digitos son permitidos',
-                            maxlength: 'Maximo de {0} digitos son permitidos'
+                            minlength: 'Minimo de {9} digitos son permitidos',
+                            maxlength: 'Maximo de {9} digitos son permitidos'
                         },
                         email: {
                             email: 'Formato incorrecto para email, ejm: nombre@romaqui.com'
@@ -658,8 +663,8 @@ angular.module('proveedorModule', ['ngValidate', 'dirPagination', 'components'])
                         },
                         ruc: {
                             required: 'Campo obligatorio',
-                            minlength: 'Minimo de {0} digitos son permitidos',
-                            maxlength: 'Maximo de {0} digitos son permitidos'
+                            minlength: 'Minimo de {11} digitos son permitidos',
+                            maxlength: 'Maximo de {11} digitos son permitidos'
                         },
                         razonsocial: {
                             required: 'Campo obligatorio'
@@ -673,7 +678,7 @@ angular.module('proveedorModule', ['ngValidate', 'dirPagination', 'components'])
                         telefono: {
                             required: 'Campo obligatorio',
                             minlength: 'Minimo de {0} digitos son permitidos',
-                            maxlength: 'Maximo de {0} digitos son permitidos'
+                            maxlength: 'Maximo de {9} digitos son permitidos'
                         },
                         direccion: {
                             required: 'Campo obligatorio'

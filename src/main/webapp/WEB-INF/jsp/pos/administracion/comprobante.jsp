@@ -1,8 +1,3 @@
-<%-- 
-    Document   : marca
-    Created on : 22/08/2016, 04:27:38 PM
-    Author     : roca
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -71,6 +66,7 @@
                                                 <label>Serie <span class="span-salmon">(*)</span></label>
                                                 <input ng-model="comprobante.serie" class="form-control input-sm" name="serie" type="number" placeholder="SERIE">
                                             </div>
+                                            
                                             <div class="col-ss-12 col-xs-12">
                                                 <label>Longitud numero <span class="span-salmon">(*)</span></label>
                                                 <input ng-model="comprobante.longnumero" class="form-control input-sm" name="longnumero" type="number" placeholder="LONGITUD NUMERO">

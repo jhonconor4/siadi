@@ -1,8 +1,3 @@
-<%-- 
-    Document   : registro
-    Created on : 26/08/2016, 03:39:13 PM
-    Author     : nerio
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

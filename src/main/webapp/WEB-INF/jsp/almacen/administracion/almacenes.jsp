@@ -1,7 +1,7 @@
 <%-- 
     Document   : marca
     Created on : 22/08/2016, 04:27:38 PM
-    Author     : nerio
+    Author     : roca
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -301,7 +301,7 @@
         <script src="${pageContext.request.contextPath}/assets/js/angular/angular-components.js" type="text/javascript"></script>
         <script src="${pageContext.request.contextPath}/assets/js/angular/angular-local-storage.js" type="text/javascript"></script>
 
-        <script src="${pageContext.request.contextPath}/assets/controller/almacen/administracionModule.js" type="text/javascript"></script>
+        <script src="${pageContext.request.contextPath}/assets/controller/almacen/istracionModule.js" type="text/javascript"></script>
         <script type="text/javascript">
                                                 $("form[name=formularioa] input[name=fechaapertura]").datepicker({dateFormat: 'yy-mm-d'});
         </script>

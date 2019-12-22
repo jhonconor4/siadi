@@ -1,8 +1,4 @@
-<%-- 
-    Document   : login
-    Created on : 05/09/2019, 04:11:32 PM
-    Author     : ROCA
---%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html ng-app="indexModule">
