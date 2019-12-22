@@ -164,15 +164,15 @@ public class UsuarioServiceImpl extends GenericServiceImpl<Usuario> implements U
                 List<Funcion> lf = r.getFunciones();
                 List<Funcionacceso> lfa = new ArrayList<>();
                 if (lf != null) {
-                	for (Funcion f : lf) {
-                		if (f.isEstado() == true) {
-                			lfa.add(new Funcionacceso(0, null, f.getNombre(), f.getCodigo(), f.getRuta(), f.getIcono(), f.isEstado()));
-                		}
-                	}
-                	if (lfa.size() > 0) {
-                		Rolacceso ra = new Rolacceso(0, null, r.getNombre(), r.getCodigo(), r.getRuta(), r.getIcono(), true, lfa);
-                		lra.add(ra);
-                	}
+                    for (Funcion f : lf) {
+                        if (f.isEstado() == true) {
+                            lfa.add(new Funcionacceso(0, null, f.getNombre(), f.getCodigo(), f.getRuta(), f.getIcono(), f.isEstado()));
+                        }
+                    }
+                    if (lfa.size() > 0) {
+                        Rolacceso ra = new Rolacceso(0, null, r.getNombre(), r.getCodigo(), r.getRuta(), r.getIcono(), true, lfa);
+                        lra.add(ra);
+                    }
                 }
             }
             if (lra.size() > 0) {
@@ -245,14 +245,16 @@ public class UsuarioServiceImpl extends GenericServiceImpl<Usuario> implements U
             for (Rol r : lr) {
                 List<Funcion> lf = r.getFunciones();
                 List<Funcionacceso> lfa = new ArrayList<>();
-                for (Funcion f : lf) {
-                    if (f.isEstado() == true) {
-                        lfa.add(new Funcionacceso(0, null, f.getNombre(), f.getCodigo(), f.getRuta(), f.getIcono(), f.isEstado()));
+                if (lf != null) {
+                    for (Funcion f : lf) {
+                        if (f.isEstado() == true) {
+                            lfa.add(new Funcionacceso(0, null, f.getNombre(), f.getCodigo(), f.getRuta(), f.getIcono(), f.isEstado()));
+                        }
                     }
-                }
-                if (lfa.size() > 0) {
-                    Rolacceso ra = new Rolacceso(0, null, r.getNombre(), r.getCodigo(), r.getRuta(), r.getIcono(), true, lfa);
-                    lra.add(ra);
+                    if (lfa.size() > 0) {
+                        Rolacceso ra = new Rolacceso(0, null, r.getNombre(), r.getCodigo(), r.getRuta(), r.getIcono(), true, lfa);
+                        lra.add(ra);
+                    }
                 }
             }
             if (lra.size() > 0) {

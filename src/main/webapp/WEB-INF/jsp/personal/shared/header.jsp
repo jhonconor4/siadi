@@ -3,7 +3,7 @@
         <nav class="" role="navigation">
             <div class="nav toggle">
                 <a href="javascript:void(0)" id="menu_toggle"><i class="fa fa-bars"></i></a>
-                <a style="vertical-align: 15%;text-decoration: none;font-weight: bold">${agencia.razonsocial}</a>
+                <a class="razon-social">${agencia.razonsocial}</a>
             </div>
             <ul class="nav navbar-nav navbar-right">
                 <li class="">
