@@ -38,7 +38,7 @@
                                 <div class="panel-body">
                                     <div class="form-group col-ss-12 col-xs-12 col-sm-12">
                                         <div style="padding-bottom: 20px">
-                                            <label>AGENCIA</label>
+                                            <label>EMPRESA</label>
                                             <select ng-options="agencia as agencia.razonsocial for agencia in agencias track by agencia.id" ng-model="usuario.colaborador.agencia" name="agencia" class="form-control input-sm"></select>
                                         </div>
                                     </div>
