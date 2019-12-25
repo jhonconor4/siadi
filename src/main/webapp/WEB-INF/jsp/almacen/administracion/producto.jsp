@@ -180,7 +180,7 @@
                                                                     <span class="glyphicon sort-icon" ng-show="sortKeyp === 'fechusuariocrea'" ng-class="{'glyphicon-chevron-up':reversep, 'glyphicon-chevron-down':!reversep}"></span>
                                                                 </th>
                                                                 <th>Img.</th>
-                                                                <th>Rpt.</th>
+                                                                <th>Ficha</th>
                                                                 <th>Opt.</th>
                                                                 <th>Opt.</th>
                                                             </tr>
@@ -194,13 +194,14 @@
                                                                 <td>{{producto.nomUnidadmedida}}</td>
                                                                 <td>{{producto.nomTipo}}</td>
                                                                 <td>{{producto.marca.denominacion}}</td>
-                                                                <td>{{producto.estado}}</td>
+                                                                <td ng-if="producto.estado">ACTIVO</td>
+                                                                <td ng-if="!producto.estado">ACTIVO</td>
                                                                 <td>{{producto.fechusuariocrea}}</td>
                                                                 <td title="{{producto.urlfoto}}">
                                                                     <a href="${pageContext.request.contextPath}{{producto.urlfoto}}" target="_blank"><i class="fa fa-picture-o"></i> Img.</a>
                                                                 </td>
                                                                 <td>
-                                                                    <a href="${pageContext.request.contextPath}/almacen/administracion/reporte?type=pdf&&id={{producto.id}}" target="_blank"><i class="fa fa-file-pdf-o"></i> Rpt.</a>
+                                                                    <a href="${pageContext.request.contextPath}/almacen/administracion/reporte?type=pdf&&id={{producto.id}}" target="_blank"><i class="fa fa-file-pdf-o"></i>Ficha</a>
                                                                 </td>
                                                                 <td>
                                                                     <a href="javascript:void(0)" ng-click="mostrarp(producto)" style="color: blue" data-toggle="modal" data-target="#modalProducto"><i class="fa fa-edit"></i> Edit.</a>
