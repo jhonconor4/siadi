@@ -28,10 +28,7 @@ import com.roca.siadi.service.AgenciaService;
 import com.roca.siadi.service.ContratoService;
 import com.roca.siadi.service.UsuarioService;
 
-/**
- *
- * @author roca
- */
+
 @Controller
 public class IndexController {
 

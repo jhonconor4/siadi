@@ -58,10 +58,7 @@ import com.roca.siadi.service.TransferenciaService;
 import com.roca.siadi.service.UsuarioService;
 import com.roca.siadi.service.VentaService;
 
-/**
- *
- * @author 	rRoca
- */
+
 @Controller
 @RequestMapping("common")
 public class CommonController {

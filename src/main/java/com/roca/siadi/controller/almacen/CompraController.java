@@ -51,8 +51,6 @@ import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
 
-
-
 @Controller("acompraController")
 @RequestMapping("almacen/compra")
 public class CompraController {

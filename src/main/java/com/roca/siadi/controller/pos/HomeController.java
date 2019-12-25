@@ -15,10 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.roca.siadi.util.SessionUtil;
 
-/**
- *
- * @author roca
- */
+
 @Controller("poshomeController")
 @RequestMapping("pos/home")
 public class HomeController {

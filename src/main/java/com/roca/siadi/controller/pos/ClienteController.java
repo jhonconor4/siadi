@@ -38,10 +38,7 @@ import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
 
-/**
- *
- * @author roca
- */
+
 @Controller("posclienteController")
 @RequestMapping("pos/cliente")
 public class ClienteController {

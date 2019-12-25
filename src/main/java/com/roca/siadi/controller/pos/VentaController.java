@@ -50,10 +50,7 @@ import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
 
-/**
- *
- * @author roca
- */
+
 @Controller
 @RequestMapping("pos/venta")
 public class VentaController {

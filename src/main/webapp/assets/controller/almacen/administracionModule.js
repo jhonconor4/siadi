@@ -912,6 +912,14 @@ angular.module('administracionModule', ['ngValidate', 'dirPagination', 'componen
                 h.post(contextPath + '/common/listarproducto')
                         .success(function (data) {
                             s.productos = data;
+                            console.log(s.tipos);
+                            console.log(s.unidadmedidas);
+                            s.productos.forEach(el=>{
+                            el.nomTipo = (s.tipos.filter(tip=> el.idttipo == tip.id)[0]).nombre;
+                            el.nomUnidadmedida =(s.unidadmedidas.filter(um=> el.idtunidadmedida == um.id)[0]).nombre;
+                            });
+                            console.log(s.productos);
+                            
                         })
                         .error(function (error, status) {
                             n.notificar('Notificacion', 'error', 'Error: ' + status);

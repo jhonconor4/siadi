@@ -39,10 +39,7 @@ import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
 
-/**
- *
- * @author roca
- */
+
 @Controller("aproveedorController")
 @RequestMapping("almacen/proveedor")
 public class ProveedorController {

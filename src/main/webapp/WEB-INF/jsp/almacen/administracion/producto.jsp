@@ -191,8 +191,8 @@
                                                                 <td>{{producto.codigo}}</td>
                                                                 <td>{{producto.nombre}}</td>
                                                                 <td>{{producto.categoria.denominacion}}</td>
-                                                                <td>{{producto.idtunidadmedida}}</td>
-                                                                <td>{{producto.idttipo}}</td>
+                                                                <td>{{producto.nomUnidadmedida}}</td>
+                                                                <td>{{producto.nomTipo}}</td>
                                                                 <td>{{producto.marca.denominacion}}</td>
                                                                 <td>{{producto.estado}}</td>
                                                                 <td>{{producto.fechusuariocrea}}</td>
