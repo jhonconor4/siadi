@@ -665,6 +665,7 @@ angular.module('administracionModule', ['ngValidate', 'dirPagination', 'componen
                 h.post(contextPath + '/common/listarcategoria')
                         .success(function (data) {
                             s.categorias = data;
+                            console.log(s.categorias);
                             s.producto.categoria = s.categorias[0];
                             s.obtenerCodigoproducto();
                         })
@@ -681,19 +682,12 @@ angular.module('administracionModule', ['ngValidate', 'dirPagination', 'componen
                             n.notificar('Notificacion', 'error', 'Error: ' + status);
                         });
 
-                h.post(contextPath + '/common/listartipo', {idtabla: 10})
-                        .success(function (data) {
-                            s.unidadmedidas = data;
-                            s.producto.idtunidadmedida = s.unidadmedidas[6];
-                        })
-                        .error(function (error, status) {
-                            n.notificar('Notificacion', 'error', 'Error: ' + status);
-                        });
-
                 h.post(contextPath + '/common/listartipo', {idtabla: 11})
                         .success(function (data) {
                             s.tipos = data;
                             s.producto.idttipo = s.tipos[0];
+
+                            s.listarTipoProducto();
                         })
                         .error(function (error, status) {
                             n.notificar('Notificacion', 'error', 'Error: ' + status);
@@ -703,6 +697,19 @@ angular.module('administracionModule', ['ngValidate', 'dirPagination', 'componen
                     h.post(contextPath + '/almacen/administracion/obtcodigopro', s.producto.categoria)
                             .success(function (data) {
                                 s.producto.codigo = s.producto.categoria.codigo + '-00' + data;
+                            })
+                            .error(function (error, status) {
+                                n.notificar('Notificacion', 'error', 'Error: ' + status);
+                            });
+                };
+
+                s.listarTipoProducto = function () {
+                    h.post(contextPath + '/common/listartipo', {idtabla: 10})
+                            .success(function (data) {
+                                s.unidadmedidas = data;
+                                s.producto.idtunidadmedida = s.unidadmedidas[6];
+
+                                s.listarProductos();
                             })
                             .error(function (error, status) {
                                 n.notificar('Notificacion', 'error', 'Error: ' + status);
@@ -790,6 +797,9 @@ angular.module('administracionModule', ['ngValidate', 'dirPagination', 'componen
                                         s.obtenerCodigoproducto();
                                         s.file = null;
 
+                                        data.nomTipo = (s.tipos.filter(tip => data.idttipo == tip.id)[0]).nombre;
+                                        data.nomUnidadmedida = (s.unidadmedidas.filter(um => data.idtunidadmedida == um.id)[0]).nombre;
+
                                         s.productos.push(data);
                                     } else {
                                         n.notificar('Notificacion', 'error', 'Error al registrar producto');
@@ -856,6 +866,11 @@ angular.module('administracionModule', ['ngValidate', 'dirPagination', 'componen
                                         s.productoa = {};
                                         s.file2 = null;
 
+                                        data.nomTipo = (s.tipos.filter(tip => data.idttipo == tip.id)[0]).nombre;
+                                        data.nomUnidadmedida = (s.unidadmedidas.filter(um => data.idtunidadmedida == um.id)[0]).nombre;
+                                        data.marca.denominacion = (s.marcas.filter(m => data.marca.id == m.id)[0]).denominacion;
+                                        data.categoria.denominacion = (s.categorias.filter(c => data.categoria.id == c.id)[0]).denominacion;
+
                                         s.productos.splice(s.index, 1);
                                         s.productos.push(data);
 
@@ -909,21 +924,23 @@ angular.module('administracionModule', ['ngValidate', 'dirPagination', 'componen
                 };
 
                 //LISTAR PRODUCTOS
-                h.post(contextPath + '/common/listarproducto')
-                        .success(function (data) {
-                            s.productos = data;
-                            console.log(s.tipos);
-                            console.log(s.unidadmedidas);
-                            s.productos.forEach(el => {
-                                el.nomTipo = (s.tipos.filter(tip => el.idttipo == tip.id)[0]).nombre;
-                                el.nomUnidadmedida = (s.unidadmedidas.filter(um => el.idtunidadmedida == um.id)[0]).nombre;
-                            });
-                            console.log(s.productos);
+                s.listarProductos = function () {
+                    h.post(contextPath + '/common/listarproducto')
+                            .success(function (data) {
+                                s.productos = data;
+                                console.log(s.tipos);
+                                console.log(s.unidadmedidas);
+                                s.productos.forEach(el => {
+                                    el.nomTipo = (s.tipos.filter(tip => el.idttipo == tip.id)[0]).nombre;
+                                    el.nomUnidadmedida = (s.unidadmedidas.filter(um => el.idtunidadmedida == um.id)[0]).nombre;
+                                });
+                                console.log(s.productos);
 
-                        })
-                        .error(function (error, status) {
-                            n.notificar('Notificacion', 'error', 'Error: ' + status);
-                        });
+                            })
+                            .error(function (error, status) {
+                                n.notificar('Notificacion', 'error', 'Error: ' + status);
+                            });
+                }
 
                 s.sesion = function () {
                     h.post(contextPath + '/session')
