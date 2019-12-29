@@ -15,7 +15,7 @@ import com.roca.siadi.entity.Transferencia;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface CajeroService extends GenericService<Cajero> {
 

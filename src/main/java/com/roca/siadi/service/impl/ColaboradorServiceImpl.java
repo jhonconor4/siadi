@@ -18,7 +18,7 @@ import com.roca.siadi.service.ColaboradorService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class ColaboradorServiceImpl extends GenericServiceImpl<Colaborador> implements ColaboradorService {

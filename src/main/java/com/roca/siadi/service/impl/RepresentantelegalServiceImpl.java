@@ -17,7 +17,7 @@ import com.roca.siadi.service.RepresentantelegalService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class RepresentantelegalServiceImpl extends GenericServiceImpl<Representantelegal> implements RepresentantelegalService {

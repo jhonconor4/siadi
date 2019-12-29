@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Caja;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 public interface CajaDao extends GenericDao<Caja>{
     

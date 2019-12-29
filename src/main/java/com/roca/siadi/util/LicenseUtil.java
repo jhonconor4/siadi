@@ -8,7 +8,7 @@ package com.roca.siadi.util;
 
 public class LicenseUtil {
 
-    private static String fechaLimite = "2020/08/12";
+    private static String fechaLimite = "2020/12/12";
 
     public static String getFechaLimite() {
         return fechaLimite;

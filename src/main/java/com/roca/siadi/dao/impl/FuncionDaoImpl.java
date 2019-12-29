@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Funcion;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class FuncionDaoImpl extends GenericDaoImpl<Funcion> implements FuncionDao{

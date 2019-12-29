@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Pais;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 public interface DepartamentoService extends GenericService<Departamento> {
 

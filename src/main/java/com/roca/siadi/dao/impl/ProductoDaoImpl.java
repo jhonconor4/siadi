@@ -18,13 +18,13 @@ import com.roca.siadi.entity.Producto;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class ProductoDaoImpl extends GenericDaoImpl<Producto> implements ProductoDao {
 
     @Override
-    public Producto registrarProducto(Producto x, HttpSession s) {
+    public Producto registrarProducto(Producto x) {
         Session sesion = sesionFactory.openSession();
         Transaction tx = sesion.beginTransaction();
 

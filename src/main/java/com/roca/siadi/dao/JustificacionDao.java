@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Justificacion;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface JustificacionDao extends GenericDao<Justificacion> {
 

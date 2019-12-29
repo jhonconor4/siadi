@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Turno;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class TurnoDaoImpl extends GenericDaoImpl<Turno> implements TurnoDao {

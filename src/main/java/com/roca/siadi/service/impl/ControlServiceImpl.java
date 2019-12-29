@@ -14,7 +14,7 @@ import com.roca.siadi.service.ControlService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class ControlServiceImpl extends GenericServiceImpl<Control> implements ControlService {

@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Andamio;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface AndamioService extends GenericService<Andamio> {
 

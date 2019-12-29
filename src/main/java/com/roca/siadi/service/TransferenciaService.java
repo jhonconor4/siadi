@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Transferencia;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface TransferenciaService extends GenericService<Transferencia> {
 

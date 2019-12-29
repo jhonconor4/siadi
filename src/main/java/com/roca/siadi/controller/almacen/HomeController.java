@@ -16,7 +16,7 @@ import com.roca.siadi.util.SessionUtil;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 @Controller("ahomeController")
 @RequestMapping("almacen/home")

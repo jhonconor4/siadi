@@ -18,7 +18,7 @@ import com.roca.siadi.service.ClienteService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class ClienteServiceImpl extends GenericServiceImpl<Cliente> implements ClienteService {

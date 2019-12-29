@@ -7,7 +7,7 @@ package com.roca.siadi.configuration;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 import java.util.Properties;
 

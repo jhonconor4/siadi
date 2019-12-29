@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Inventarioiniciomes;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class InventarioiniciomesDaoImpl extends GenericDaoImpl<Inventarioiniciomes> implements InventarioiniciomesDao {

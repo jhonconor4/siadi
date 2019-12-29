@@ -17,7 +17,7 @@ import com.roca.siadi.service.DepartamentoService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class DepartamentoServiceImpl extends GenericServiceImpl<Departamento> implements DepartamentoService {

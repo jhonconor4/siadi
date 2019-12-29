@@ -14,7 +14,7 @@ import com.roca.siadi.service.SancionService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class SancionServiceImpl extends GenericServiceImpl<Sancion> implements SancionService {

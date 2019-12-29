@@ -89,12 +89,14 @@ public class CompraController {
     @RequestMapping(value = "/registro", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String registro(Compra c, @RequestParam(value = "comprobante", required = false) MultipartFile comp, @RequestParam(value = "ordencompra", required = false) MultipartFile ordc, HttpServletRequest hsr, HttpSession sesion) {
-        List<Detallecompra> ldc = (List<Detallecompra>) sesion.getAttribute("ldc");
+        
+		List<Detallecompra> ldc = (List<Detallecompra>) sesion.getAttribute("ldc");
         if (ldc == null) {
             return gson.toJson(null);
         } else {
             if (ldc.size() > 0) {
-                return gson.toJson(compraService.registrarCompra(c, comp, ordc, ldc, hsr));
+            	Compra compResp = compraService.registrarCompra(c, comp, ordc, ldc, hsr);
+                return gson.toJson(compResp);
             } else {
                 return gson.toJson(null);
             }

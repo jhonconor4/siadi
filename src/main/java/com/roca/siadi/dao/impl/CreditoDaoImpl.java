@@ -20,7 +20,7 @@ import com.roca.siadi.entity.Transaccion;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 @Repository
 public class CreditoDaoImpl extends GenericDaoImpl<Credito> implements CreditoDao {

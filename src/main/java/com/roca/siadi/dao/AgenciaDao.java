@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Agencia;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 public interface AgenciaDao extends GenericDao<Agencia> {
 

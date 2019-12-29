@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Andamio;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class AndamioDaoImpl extends GenericDaoImpl<Andamio> implements AndamioDao {

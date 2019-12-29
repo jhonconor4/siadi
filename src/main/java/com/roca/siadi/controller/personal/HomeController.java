@@ -16,7 +16,7 @@ import com.roca.siadi.util.SessionUtil;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Controller("phomeController")
 @RequestMapping("personal/home")

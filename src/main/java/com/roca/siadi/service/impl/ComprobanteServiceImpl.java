@@ -17,7 +17,7 @@ import com.roca.siadi.service.ComprobanteService;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 @Service
 public class ComprobanteServiceImpl extends GenericServiceImpl<Comprobante> implements ComprobanteService {

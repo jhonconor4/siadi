@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Vacacion;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface VacacionDao extends GenericDao<Vacacion> {
 

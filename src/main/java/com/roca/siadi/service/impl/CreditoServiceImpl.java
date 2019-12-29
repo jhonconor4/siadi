@@ -28,7 +28,7 @@ import com.roca.siadi.service.TablamaestraService;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 @Service
 public class CreditoServiceImpl extends GenericServiceImpl<Credito> implements CreditoService {

@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Distrito;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class DistritoDaoImpl extends GenericDaoImpl<Distrito> implements DistritoDao{

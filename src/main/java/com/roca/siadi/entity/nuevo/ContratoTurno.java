@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Turno;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 public class ContratoTurno {
 

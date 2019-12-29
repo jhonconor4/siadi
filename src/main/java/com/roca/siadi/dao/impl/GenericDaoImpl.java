@@ -25,7 +25,7 @@ import com.roca.siadi.dao.GenericDao;
 
 /**
  *
- * @author roca
+ * @author ROCA
  * @param <T>
  */
 @Repository

@@ -13,7 +13,7 @@ import com.roca.siadi.entity.Usuario;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface UsuarioDao extends GenericDao<Usuario> {
 

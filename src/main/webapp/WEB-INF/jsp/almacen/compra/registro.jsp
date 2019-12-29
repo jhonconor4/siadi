@@ -157,6 +157,9 @@
                                                                             <label>Nombre producto <span class="span-salmon">(*)</span></label>
                                                                             <input ng-model="nombreproducto" name="nombre" ng-enter="agregarDetallecompra(formulariodtc)" type="text" class="form-control input-sm" placeholder="NOMBRE DE PRODUCTO" uppercased auto-complete="buscarProductoPorNombre">
                                                                         </div>
+<!--                                                                         <pre> -->
+<!--                                                                         {{compras | json}} -->
+<!--                                                                         </pre> -->
                                                                         <div class="col-ss-12 col-xs-12 btn-col">
                                                                             <table class="table table-striped jambo_table">
                                                                                 <thead>

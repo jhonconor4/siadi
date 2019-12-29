@@ -1,5 +1,5 @@
 package com.roca.siadi.entity;
-// Generated 03/06/2017 09:32:27 PM by Hibernate Tools 4.3.1
+// Generated 03/06/2019 09:32:27 PM by Hibernate Tools 4.3.1
 
 import java.util.Date;
 

@@ -17,7 +17,7 @@ import com.roca.siadi.service.ProvinciaService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class ProvinciaServiceImpl extends GenericServiceImpl<Provincia> implements ProvinciaService {

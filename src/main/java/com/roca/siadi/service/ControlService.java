@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Control;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface ControlService extends GenericService<Control> {
 

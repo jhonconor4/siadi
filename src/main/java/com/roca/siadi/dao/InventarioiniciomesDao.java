@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Inventarioiniciomes;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface InventarioiniciomesDao extends GenericDao<Inventarioiniciomes> {
     

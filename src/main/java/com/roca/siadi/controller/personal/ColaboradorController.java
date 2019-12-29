@@ -32,7 +32,7 @@ import com.roca.siadi.util.SessionUtil;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Controller("pcolaboradorController")
 @RequestMapping("personal/colaborador")

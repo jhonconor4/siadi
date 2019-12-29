@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Control;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class ControlDaoImpl extends GenericDaoImpl<Control> implements ControlDao {

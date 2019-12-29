@@ -20,7 +20,7 @@ import com.roca.siadi.entity.Representantelegal;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class ProveedorDaoImpl extends GenericDaoImpl<Proveedor> implements ProveedorDao {

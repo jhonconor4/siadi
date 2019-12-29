@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Caja;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface CajaService extends GenericService<Caja> {
 

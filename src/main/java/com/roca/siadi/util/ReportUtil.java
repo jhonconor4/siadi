@@ -17,10 +17,7 @@ import net.sf.jasperreports.engine.export.JRPdfExporter;
 import net.sf.jasperreports.engine.export.JRXlsAbstractExporterParameter;
 import net.sf.jasperreports.engine.export.JRXlsExporter;
 
-/**
- *
- * @author nerio
- */
+
 public class ReportUtil {
 
     public static final String MEDIA_TYPE_EXCEL = "application/vnd.ms-excel";

@@ -12,7 +12,7 @@ import com.roca.siadi.service.PaisService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class PaisServiceImpl extends GenericServiceImpl<Pais> implements PaisService{

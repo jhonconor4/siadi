@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Categoria;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface CategoriaService extends GenericService<Categoria>{
     

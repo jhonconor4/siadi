@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Movimiento;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class MovimientoDaoImpl extends GenericDaoImpl<Movimiento> implements MovimientoDao{

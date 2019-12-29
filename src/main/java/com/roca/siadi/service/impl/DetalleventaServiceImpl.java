@@ -17,7 +17,7 @@ import com.roca.siadi.service.DetalleventaService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class DetalleventaServiceImpl extends GenericServiceImpl<Detalleventa> implements DetalleventaService {

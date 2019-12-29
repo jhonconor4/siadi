@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Rolacceso;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface RolaccesoDao extends GenericDao<Rolacceso>{
     

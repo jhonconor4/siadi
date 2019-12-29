@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Provincia;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface ProvinciaDao extends GenericDao<Provincia>{
     

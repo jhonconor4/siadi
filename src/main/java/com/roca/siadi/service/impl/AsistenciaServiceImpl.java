@@ -27,7 +27,7 @@ import com.roca.siadi.service.AsistenciaService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class AsistenciaServiceImpl extends GenericServiceImpl<Asistencia> implements AsistenciaService {

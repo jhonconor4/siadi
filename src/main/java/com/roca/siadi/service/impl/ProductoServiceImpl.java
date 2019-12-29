@@ -34,7 +34,7 @@ import com.roca.siadi.util.FileUploaderUtil;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class ProductoServiceImpl extends GenericServiceImpl<Producto> implements ProductoService {
@@ -73,15 +73,18 @@ public class ProductoServiceImpl extends GenericServiceImpl<Producto> implements
 
     @Override
     public Producto registrarProducto(Producto p, MultipartFile f, HttpServletRequest request) {
-        String upload_folder = "/assets/files/img/productos/" + p.getCategoria().getCodigo().toLowerCase() + "/";
-
-        String archivo = FileUploaderUtil.simpleUpload(f, request, upload_folder, FileUploaderUtil.listaArchivos(request, upload_folder));
+        String archivo = null;
+        String upload_folder = null;
+        if (f != null) {
+            upload_folder = "/assets/files/img/productos/" + p.getCategoria().getCodigo().toLowerCase() + "/";
+            archivo = FileUploaderUtil.simpleUpload(f, request, upload_folder, FileUploaderUtil.listaArchivos(request, upload_folder));
+        }
 
         if (archivo != null) {
             p.setUrlfoto(upload_folder + archivo);
         }
 
-        Producto dato = productoDao.registrarProducto(p, request.getSession());
+        Producto dato = productoDao.registrarProducto(p);
         if (dato == null && archivo != null) {
             FileUploaderUtil.deleteFile(request, upload_folder + archivo);
         }

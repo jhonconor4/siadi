@@ -22,7 +22,7 @@ import com.roca.siadi.service.ProveedorService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class ProveedorServiceImpl extends GenericServiceImpl<Proveedor> implements ProveedorService {

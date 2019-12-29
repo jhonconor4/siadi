@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Comprobante;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 public interface ComprobanteDao extends GenericDao<Comprobante> {
     

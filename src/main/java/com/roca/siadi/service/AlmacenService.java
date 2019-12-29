@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Almacen;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 public interface AlmacenService extends GenericService<Almacen> {
 

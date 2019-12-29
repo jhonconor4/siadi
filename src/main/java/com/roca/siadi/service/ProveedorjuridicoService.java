@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Proveedorjuridico;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface ProveedorjuridicoService extends GenericService<Proveedorjuridico> {
 

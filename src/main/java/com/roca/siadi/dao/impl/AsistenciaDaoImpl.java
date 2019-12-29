@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Asistencia;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class AsistenciaDaoImpl extends GenericDaoImpl<Asistencia> implements AsistenciaDao {

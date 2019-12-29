@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Detallemovimiento;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class DetallemovimientoDaoImpl extends GenericDaoImpl<Detallemovimiento> implements DetallemovimientoDao{

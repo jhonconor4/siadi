@@ -20,7 +20,7 @@ import com.roca.siadi.service.ModuloService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class ModuloServiceImpl extends GenericServiceImpl<Modulo> implements ModuloService {

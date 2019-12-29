@@ -17,7 +17,7 @@ import com.roca.siadi.entity.Detallecompra;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface CompraService extends GenericService<Compra> {
 

@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Cuota;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 public interface CuotaDao extends GenericDao<Cuota> {
 

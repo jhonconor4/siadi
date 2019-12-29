@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Sancion;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class SancionDaoImpl extends GenericDaoImpl<Sancion> implements SancionDao {

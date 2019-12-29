@@ -14,7 +14,7 @@ import com.roca.siadi.entity.Representantelegal;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface ProveedorDao extends GenericDao<Proveedor> {
 

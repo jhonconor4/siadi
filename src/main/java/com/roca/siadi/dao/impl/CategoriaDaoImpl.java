@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Categoria;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class CategoriaDaoImpl extends GenericDaoImpl<Categoria> implements CategoriaDao{

@@ -18,7 +18,7 @@ import com.roca.siadi.service.PermisoService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class PermisoServiceImpl extends GenericServiceImpl<Permiso> implements PermisoService {

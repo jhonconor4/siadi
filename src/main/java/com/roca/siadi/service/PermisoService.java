@@ -13,7 +13,7 @@ import com.roca.siadi.entity.Permiso;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface PermisoService extends GenericService<Permiso> {
 

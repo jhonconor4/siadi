@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Detallemovimiento;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface DetallemovimientoService extends GenericService<Detallemovimiento>{
     

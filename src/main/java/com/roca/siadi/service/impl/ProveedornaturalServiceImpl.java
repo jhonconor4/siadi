@@ -12,7 +12,7 @@ import com.roca.siadi.service.ProveedornaturalService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class ProveedornaturalServiceImpl extends GenericServiceImpl<Proveedornatural> implements ProveedornaturalService {

@@ -19,7 +19,7 @@ import com.roca.siadi.service.BobedaService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class BobedaServiceImpl extends GenericServiceImpl<Bobeda> implements BobedaService {

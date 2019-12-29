@@ -13,7 +13,7 @@ import com.roca.siadi.entity.nuevo.ClienteRepresentlegal;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface ClienteService extends GenericService<Cliente> {
 

@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Representantlegal;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 public class ClienteRepresentlegal {
 

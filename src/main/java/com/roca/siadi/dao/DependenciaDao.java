@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Dependencia;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface DependenciaDao extends GenericDao<Dependencia> {
 

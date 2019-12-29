@@ -16,7 +16,7 @@ import com.roca.siadi.entity.Producto;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface ProductoService extends GenericService<Producto> {
 

@@ -12,7 +12,7 @@ import com.roca.siadi.service.CategoriaService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class CategoriaServiceImpl extends GenericServiceImpl<Categoria> implements CategoriaService{

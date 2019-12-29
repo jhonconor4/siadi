@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Sancion;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface SancionDao extends GenericDao<Sancion> {
 

@@ -17,7 +17,7 @@ import com.roca.siadi.entity.Inventario;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class InventarioDaoImpl extends GenericDaoImpl<Inventario> implements InventarioDao {

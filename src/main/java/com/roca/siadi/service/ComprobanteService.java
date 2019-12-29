@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Comprobante;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 public interface ComprobanteService extends GenericService<Comprobante> {
 

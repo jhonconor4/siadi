@@ -15,7 +15,7 @@ import com.roca.siadi.entity.Transferencia;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class CajeroDaoImpl extends GenericDaoImpl<Cajero> implements CajeroDao {

@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Colaborador;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface ColaboradorService extends GenericService<Colaborador> {
 

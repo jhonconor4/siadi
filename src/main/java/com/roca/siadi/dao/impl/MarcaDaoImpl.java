@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Marca;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class MarcaDaoImpl extends GenericDaoImpl<Marca> implements MarcaDao{

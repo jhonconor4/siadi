@@ -17,7 +17,7 @@ import com.roca.siadi.service.InventarioiniciomesService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class InventarioiniciomesServiceImpl extends GenericServiceImpl<Inventarioiniciomes> implements InventarioiniciomesService {

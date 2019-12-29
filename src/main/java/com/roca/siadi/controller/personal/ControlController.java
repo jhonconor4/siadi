@@ -44,7 +44,7 @@ import net.sf.jasperreports.engine.JasperPrint;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 @Controller("pcontrolController")
 @RequestMapping("personal/control")

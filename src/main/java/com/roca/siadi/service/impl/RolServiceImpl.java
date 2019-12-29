@@ -12,7 +12,7 @@ import com.roca.siadi.service.RolService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class RolServiceImpl extends GenericServiceImpl<Rol> implements RolService{

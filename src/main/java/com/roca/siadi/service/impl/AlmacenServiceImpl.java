@@ -17,7 +17,7 @@ import com.roca.siadi.service.AlmacenService;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 @Service
 public class AlmacenServiceImpl extends GenericServiceImpl<Almacen> implements AlmacenService {

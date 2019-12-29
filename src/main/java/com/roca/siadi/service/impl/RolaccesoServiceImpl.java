@@ -12,7 +12,7 @@ import com.roca.siadi.service.RolaccesoService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class RolaccesoServiceImpl extends GenericServiceImpl<Rolacceso> implements RolaccesoService {

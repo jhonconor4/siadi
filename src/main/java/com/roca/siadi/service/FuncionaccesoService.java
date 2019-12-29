@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Funcionacceso;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface FuncionaccesoService extends GenericService<Funcionacceso>{
     

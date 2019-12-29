@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Rol;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface RolService extends GenericService<Rol>{
     

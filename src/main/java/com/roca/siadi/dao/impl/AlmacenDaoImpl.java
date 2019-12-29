@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Almacen;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class AlmacenDaoImpl extends GenericDaoImpl<Almacen> implements AlmacenDao{

@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Agencia;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class AgenciaDaoImpl extends GenericDaoImpl<Agencia> implements AgenciaDao {

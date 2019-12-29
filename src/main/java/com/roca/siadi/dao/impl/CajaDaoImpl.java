@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Caja;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class CajaDaoImpl extends GenericDaoImpl<Caja> implements CajaDao {

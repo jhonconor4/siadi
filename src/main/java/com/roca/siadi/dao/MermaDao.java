@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Merma;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface MermaDao extends GenericDao<Merma> {
 

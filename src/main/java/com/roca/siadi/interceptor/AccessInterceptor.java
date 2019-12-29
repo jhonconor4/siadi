@@ -19,7 +19,7 @@ import com.roca.siadi.util.LicenseUtil;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 @Component
 public class AccessInterceptor extends HandlerInterceptorAdapter {

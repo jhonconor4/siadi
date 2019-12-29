@@ -12,7 +12,7 @@ import com.roca.siadi.service.MarcaService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class MarcaServiceImpl extends GenericServiceImpl<Marca> implements MarcaService{

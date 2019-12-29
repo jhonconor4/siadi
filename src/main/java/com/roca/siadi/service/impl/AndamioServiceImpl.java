@@ -17,7 +17,7 @@ import com.roca.siadi.service.AndamioService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class AndamioServiceImpl extends GenericServiceImpl<Andamio> implements AndamioService {

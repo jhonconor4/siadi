@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Modulo;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface ModuloDao extends GenericDao<Modulo>{
     

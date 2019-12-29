@@ -12,7 +12,7 @@ import com.roca.siadi.service.ClientenaturalService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class ClientenaturalServiceImpl extends GenericServiceImpl<Clientenatural> implements ClientenaturalService {

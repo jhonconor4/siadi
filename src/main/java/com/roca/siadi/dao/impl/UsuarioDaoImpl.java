@@ -21,7 +21,7 @@ import com.roca.siadi.entity.Usuario;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class UsuarioDaoImpl extends GenericDaoImpl<Usuario> implements UsuarioDao {

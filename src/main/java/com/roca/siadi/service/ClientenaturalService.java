@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Clientenatural;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface ClientenaturalService extends GenericService<Clientenatural> {
     

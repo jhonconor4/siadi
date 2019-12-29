@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Clientejuridico;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface ClientejuridicoDao extends GenericDao<Clientejuridico> {
     

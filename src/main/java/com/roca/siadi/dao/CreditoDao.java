@@ -15,7 +15,7 @@ import com.roca.siadi.entity.Transaccion;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 public interface CreditoDao extends GenericDao<Credito> {
 

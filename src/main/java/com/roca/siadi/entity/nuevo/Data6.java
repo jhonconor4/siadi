@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Inventario;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 public class Data6 {
 

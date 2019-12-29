@@ -18,7 +18,7 @@ import com.roca.siadi.entity.Merma;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class MermaDaoImpl extends GenericDaoImpl<Merma> implements MermaDao {

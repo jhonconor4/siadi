@@ -33,7 +33,7 @@ import com.roca.siadi.util.SessionUtil;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class UsuarioServiceImpl extends GenericServiceImpl<Usuario> implements UsuarioService {

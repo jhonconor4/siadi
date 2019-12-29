@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Colaborador;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class ColaboradorDaoImpl extends GenericDaoImpl<Colaborador> implements ColaboradorDao{

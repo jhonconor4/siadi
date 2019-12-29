@@ -25,7 +25,7 @@ import com.roca.siadi.entity.Venta;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class VentaDaoImpl extends GenericDaoImpl<Venta> implements VentaDao {

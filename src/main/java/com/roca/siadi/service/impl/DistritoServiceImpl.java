@@ -17,7 +17,7 @@ import com.roca.siadi.service.DistritoService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class DistritoServiceImpl extends GenericServiceImpl<Distrito> implements DistritoService {

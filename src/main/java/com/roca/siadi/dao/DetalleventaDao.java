@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Detalleventa;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface DetalleventaDao extends GenericDao<Detalleventa>{
     

@@ -13,7 +13,7 @@ import com.roca.siadi.entity.Agencia;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface AgenciaService extends GenericService<Agencia> {
 

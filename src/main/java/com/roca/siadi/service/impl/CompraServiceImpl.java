@@ -25,7 +25,7 @@ import com.roca.siadi.util.FileUploaderUtil;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 @Service
 public class CompraServiceImpl extends GenericServiceImpl<Compra> implements CompraService {

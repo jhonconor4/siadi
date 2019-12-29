@@ -15,7 +15,7 @@ import com.roca.siadi.entity.nuevo.Data4;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface UsuarioService extends GenericService<Usuario> {
 

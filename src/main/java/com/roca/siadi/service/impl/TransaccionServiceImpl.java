@@ -12,7 +12,7 @@ import com.roca.siadi.service.TransaccionService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class TransaccionServiceImpl extends GenericServiceImpl<Transaccion> implements TransaccionService{

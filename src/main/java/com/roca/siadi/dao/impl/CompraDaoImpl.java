@@ -18,7 +18,7 @@ import com.roca.siadi.entity.Detallecompra;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class CompraDaoImpl extends GenericDaoImpl<Compra> implements CompraDao {

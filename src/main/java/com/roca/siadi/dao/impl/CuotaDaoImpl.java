@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Cuota;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 @Repository
 public class CuotaDaoImpl extends GenericDaoImpl<Cuota> implements CuotaDao {

@@ -18,7 +18,7 @@ import com.roca.siadi.util.FileUploaderUtil;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class AgenciaServiceImpl extends GenericServiceImpl<Agencia> implements AgenciaService {

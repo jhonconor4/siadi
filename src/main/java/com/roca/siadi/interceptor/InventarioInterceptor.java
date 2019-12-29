@@ -26,7 +26,7 @@ import com.roca.siadi.service.ProductoService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Component
 public class InventarioInterceptor extends HandlerInterceptorAdapter {

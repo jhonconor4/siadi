@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Transferencia;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class TransferenciaDaoImpl extends GenericDaoImpl<Transferencia> implements TransferenciaDao{

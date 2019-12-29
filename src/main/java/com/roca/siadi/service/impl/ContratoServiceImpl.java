@@ -20,7 +20,7 @@ import com.roca.siadi.service.ContratoService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class ContratoServiceImpl extends GenericServiceImpl<Contrato> implements ContratoService {

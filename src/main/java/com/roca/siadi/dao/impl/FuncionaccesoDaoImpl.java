@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Funcionacceso;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class FuncionaccesoDaoImpl extends GenericDaoImpl<Funcionacceso> implements FuncionaccesoDao{

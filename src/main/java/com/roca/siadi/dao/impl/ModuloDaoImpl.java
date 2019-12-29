@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Modulo;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class ModuloDaoImpl extends GenericDaoImpl<Modulo> implements ModuloDao{

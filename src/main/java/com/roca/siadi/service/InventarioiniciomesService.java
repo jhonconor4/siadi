@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Producto;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface InventarioiniciomesService extends GenericService<Inventarioiniciomes> {
 

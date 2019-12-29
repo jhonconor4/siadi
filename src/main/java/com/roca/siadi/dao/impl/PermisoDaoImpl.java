@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Permiso;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class PermisoDaoImpl extends GenericDaoImpl<Permiso> implements PermisoDao {

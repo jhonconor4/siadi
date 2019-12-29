@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  * @param <T>
  */
 public interface GenericService<T> {

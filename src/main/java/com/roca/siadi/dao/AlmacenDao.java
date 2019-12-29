@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Almacen;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 public interface AlmacenDao extends GenericDao<Almacen>{
     

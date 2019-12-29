@@ -17,7 +17,7 @@ import com.roca.siadi.service.DependenciaService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class DependenciaServiceImpl extends GenericServiceImpl<Dependencia> implements DependenciaService {

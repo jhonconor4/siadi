@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Marca;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface MarcaDao extends GenericDao<Marca>{
     

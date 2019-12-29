@@ -32,7 +32,7 @@ import com.roca.siadi.util.SessionUtil;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 @Controller("posadministracionController")
 @RequestMapping("pos/administracion")

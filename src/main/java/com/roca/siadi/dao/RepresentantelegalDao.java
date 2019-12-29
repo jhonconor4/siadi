@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Representantelegal;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface RepresentantelegalDao extends GenericDao<Representantelegal>{
     

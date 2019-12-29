@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Pais;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class PaisDaoImpl extends GenericDaoImpl<Pais> implements PaisDao{

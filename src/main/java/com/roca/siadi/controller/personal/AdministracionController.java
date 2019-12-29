@@ -24,7 +24,7 @@ import com.roca.siadi.util.SessionUtil;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 @Controller("padministracionController")
 @RequestMapping("personal/administracion")

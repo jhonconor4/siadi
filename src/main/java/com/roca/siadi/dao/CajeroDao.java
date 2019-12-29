@@ -10,7 +10,7 @@ import com.roca.siadi.entity.Transferencia;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface CajeroDao extends GenericDao<Cajero> {
 

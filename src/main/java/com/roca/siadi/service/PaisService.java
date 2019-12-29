@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Pais;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface PaisService extends GenericService<Pais>{
     

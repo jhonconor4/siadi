@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Departamento;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class DepartamentoDaoImpl extends GenericDaoImpl<Departamento> implements DepartamentoDao{

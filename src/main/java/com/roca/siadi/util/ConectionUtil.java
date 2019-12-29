@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 //@PropertySource(value = { "classpath:application.properties" })
 public class ConectionUtil {

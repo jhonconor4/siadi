@@ -12,7 +12,7 @@ import com.roca.siadi.service.MovimientoService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class MovimientoServiceImpl extends GenericServiceImpl<Movimiento> implements MovimientoService{

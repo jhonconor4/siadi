@@ -13,11 +13,7 @@ import org.springframework.stereotype.Service;
 import com.roca.siadi.dao.GenericDao;
 import com.roca.siadi.service.GenericService;
 
-/**
- *
- * @author nerio
- * @param <T>
- */
+
 @Service
 public abstract class GenericServiceImpl<T> implements GenericService<T> {
 

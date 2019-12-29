@@ -105,10 +105,8 @@
                                                                     <label>TELÉFONO<span class="span-salmon">(*)</span></label>
                                                                     <input ng-model="proveedor.proveedorjuridico.telefono" name="telefono" class="form-control input-sm" type="number">
                                                                 </div>
-                                                                <div class="form-group col-ss-12 col-xs-3 col-sm-3">
-                                                                    <label>FECHA FUNDACIÓN</label>
-                                                                    <input ng-model="proveedor.proveedorjuridico.fechafundacion" name="fechafundacion" class="form-control input-sm">
-                                                                </div>
+                                                                
+                                                                
                                                                 <div class="form-group col-ss-12 col-xs-3 col-sm-3">
                                                                     <label>EMAIL</label>
                                                                     <input ng-model="proveedor.proveedorjuridico.email" name="email" class="form-control input-sm" uppercased>

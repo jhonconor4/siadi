@@ -17,7 +17,7 @@ import com.roca.siadi.service.CajaService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class CajaServiceImpl extends GenericServiceImpl<Caja> implements CajaService {

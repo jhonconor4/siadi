@@ -16,7 +16,7 @@ import com.roca.siadi.service.TablamaestraService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class TablamaestraServiceImpl extends GenericServiceImpl<Tablamaestra> implements TablamaestraService {

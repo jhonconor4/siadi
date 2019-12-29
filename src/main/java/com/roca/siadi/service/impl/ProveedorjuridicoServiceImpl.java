@@ -12,7 +12,7 @@ import com.roca.siadi.service.ProveedorjuridicoService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class ProveedorjuridicoServiceImpl extends GenericServiceImpl<Proveedorjuridico> implements ProveedorjuridicoService {

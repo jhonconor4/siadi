@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Andamio;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface AndamioDao extends GenericDao<Andamio>{
     

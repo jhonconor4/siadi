@@ -14,7 +14,7 @@ import com.roca.siadi.entity.nuevo.Data2;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface ProveedorService extends GenericService<Proveedor> {
 

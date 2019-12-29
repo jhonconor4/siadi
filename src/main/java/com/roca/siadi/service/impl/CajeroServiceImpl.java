@@ -27,7 +27,7 @@ import com.roca.siadi.service.CajeroService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class CajeroServiceImpl extends GenericServiceImpl<Cajero> implements CajeroService {

@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Dependencia;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface DependenciaService extends GenericService<Dependencia> {
 

@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Representantlegal;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 public interface ClienteDao extends GenericDao<Cliente> {
 

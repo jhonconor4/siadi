@@ -11,11 +11,11 @@ import com.roca.siadi.entity.Producto;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface ProductoDao extends GenericDao<Producto> {
 
-    Producto registrarProducto(Producto p, HttpSession s);
+    Producto registrarProducto(Producto p);
 
     int eliminarProducto(Producto p);
 }

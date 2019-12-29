@@ -13,7 +13,7 @@ import com.roca.siadi.entity.Bobeda;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface BobedaService extends GenericService<Bobeda> {
 

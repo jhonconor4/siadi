@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Rolacceso;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class RolaccesoDaoImpl extends GenericDaoImpl<Rolacceso> implements RolaccesoDao {

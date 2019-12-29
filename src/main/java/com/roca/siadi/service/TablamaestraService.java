@@ -11,7 +11,7 @@ import com.roca.siadi.entity.Tablamaestra;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface TablamaestraService extends GenericService<Tablamaestra> {
 

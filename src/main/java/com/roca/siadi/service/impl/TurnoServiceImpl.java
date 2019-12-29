@@ -17,7 +17,7 @@ import com.roca.siadi.service.TurnoService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class TurnoServiceImpl extends GenericServiceImpl<Turno> implements TurnoService {

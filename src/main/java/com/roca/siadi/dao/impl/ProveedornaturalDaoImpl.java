@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Proveedornatural;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class ProveedornaturalDaoImpl extends GenericDaoImpl<Proveedornatural> implements ProveedornaturalDao {

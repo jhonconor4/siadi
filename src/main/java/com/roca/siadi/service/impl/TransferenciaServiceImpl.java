@@ -18,7 +18,7 @@ import com.roca.siadi.service.TransferenciaService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class TransferenciaServiceImpl extends GenericServiceImpl<Transferencia> implements TransferenciaService {

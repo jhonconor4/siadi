@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Pais;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface PaisDao extends GenericDao<Pais>{
     

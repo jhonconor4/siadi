@@ -10,7 +10,7 @@ import java.util.Map;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  * @param <T>
  */
 public interface GenericDao<T> {

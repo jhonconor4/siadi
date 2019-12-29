@@ -11,7 +11,7 @@ import com.roca.siadi.entity.Modulo;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface ModuloService extends GenericService<Modulo> {
 

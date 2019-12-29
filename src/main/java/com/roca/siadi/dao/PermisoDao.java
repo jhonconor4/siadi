@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Permiso;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface PermisoDao extends GenericDao<Permiso> {
 

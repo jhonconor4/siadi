@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Comprobante;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 @Repository
 public class ComprobanteDaoImpl extends GenericDaoImpl<Comprobante> implements ComprobanteDao {

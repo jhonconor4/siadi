@@ -52,7 +52,7 @@ import net.sf.jasperreports.engine.JasperPrint;
 
 /**
  *
- * @author roca
+ * @author ROCA
  */
 @Controller("aadministracionController")
 @RequestMapping("almacen/administracion")
@@ -183,7 +183,9 @@ public class AdministracionController {
     @RequestMapping(value = "/registropro", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String registroPro(Producto producto, @RequestParam(value = "file", required = false) MultipartFile file, HttpServletRequest request) {
-        return gson.toJson(productoService.registrarProducto(producto, file, request));
+        Producto prod = productoService.registrarProducto(producto, file, request);
+    	return gson.toJson(prod);
+        
     }
 
     @RequestMapping(value = "/actualizarpro", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)

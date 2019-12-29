@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Clientenatural;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class ClientenaturalDaoImpl extends GenericDaoImpl<Clientenatural> implements ClientenaturalDao{

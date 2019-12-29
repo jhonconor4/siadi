@@ -359,6 +359,7 @@ angular.module('proveedorModule', ['ngValidate', 'dirPagination', 'components'])
                         idusuariomod: p.idusuariomod,
                         fechusuariomod: p.fechusuariomod
                     };
+                    
                 };
 
                 s.actualizarpn = function (form) {
@@ -562,8 +563,8 @@ angular.module('proveedorModule', ['ngValidate', 'dirPagination', 'components'])
                             required: true
                         },
                         telefono: {
-                            minlength: 9,
-                            maxlength: 9
+                            minlength: 6,
+                            maxlength: 6
                         },
                         ruc: {
                             required: true,
@@ -593,8 +594,8 @@ angular.module('proveedorModule', ['ngValidate', 'dirPagination', 'components'])
                             required: 'Campo obligatorio'
                         },
                         telefono: {
-                            minlength: 'Minimo de {9} digitos son permitidos',
-                            maxlength: 'Maximo de {9} digitos son permitidos'
+                            minlength: 'Minimo de {6} digitos son permitidos',
+                            maxlength: 'Maximo de {6} digitos son permitidos'
                         },
                         email: {
                             email: 'Formato incorrecto para email, ejm: nombre@romaqui.com'
@@ -642,7 +643,7 @@ angular.module('proveedorModule', ['ngValidate', 'dirPagination', 'components'])
                         telefono: {
                             required: true,
                             minlength: 6,
-                            maxlength: 11
+                            maxlength: 6
                         },
                         direccion: {
                             required: true
@@ -677,8 +678,8 @@ angular.module('proveedorModule', ['ngValidate', 'dirPagination', 'components'])
                         },
                         telefono: {
                             required: 'Campo obligatorio',
-                            minlength: 'Minimo de {0} digitos son permitidos',
-                            maxlength: 'Maximo de {9} digitos son permitidos'
+                            minlength: 'Minimo de {6} digitos son permitidos',
+                            maxlength: 'Maximo de {6} digitos son permitidos'
                         },
                         direccion: {
                             required: 'Campo obligatorio'

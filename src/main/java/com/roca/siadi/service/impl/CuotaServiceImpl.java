@@ -18,7 +18,7 @@ import com.roca.siadi.service.CuotaService;
 
 /**
  *
- * @author NERIO
+ * @author ROCA
  */
 @Service
 public class CuotaServiceImpl extends GenericServiceImpl<Cuota> implements CuotaService {

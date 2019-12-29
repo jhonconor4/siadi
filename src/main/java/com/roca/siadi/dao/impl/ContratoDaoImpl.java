@@ -18,7 +18,7 @@ import com.roca.siadi.entity.Turno;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class ContratoDaoImpl extends GenericDaoImpl<Contrato> implements ContratoDao {

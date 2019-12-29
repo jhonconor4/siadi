@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Bobeda;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class BobedaDaoImpl extends GenericDaoImpl<Bobeda> implements BobedaDao {

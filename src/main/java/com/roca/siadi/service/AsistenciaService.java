@@ -14,7 +14,7 @@ import com.roca.siadi.entity.nuevo.AsistenciaControl;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface AsistenciaService extends GenericService<Asistencia> {
 

@@ -14,7 +14,7 @@ import com.roca.siadi.service.VacacionService;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Service
 public class VacacionServiceImpl extends GenericServiceImpl<Vacacion> implements VacacionService {

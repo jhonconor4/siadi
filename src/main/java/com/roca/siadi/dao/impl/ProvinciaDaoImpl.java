@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Provincia;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class ProvinciaDaoImpl extends GenericDaoImpl<Provincia> implements ProvinciaDao{

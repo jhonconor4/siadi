@@ -9,7 +9,7 @@ import com.roca.siadi.entity.Departamento;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface DepartamentoDao extends GenericDao<Departamento>{
     

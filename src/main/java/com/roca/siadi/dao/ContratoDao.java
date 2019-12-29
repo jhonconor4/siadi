@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Turno;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 public interface ContratoDao extends GenericDao<Contrato> {
 

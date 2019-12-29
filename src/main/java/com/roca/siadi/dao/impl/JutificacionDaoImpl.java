@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Justificacion;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class JutificacionDaoImpl extends GenericDaoImpl<Justificacion> implements JustificacionDao {

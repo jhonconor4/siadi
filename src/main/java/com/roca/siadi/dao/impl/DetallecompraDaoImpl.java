@@ -12,7 +12,7 @@ import com.roca.siadi.entity.Detallecompra;
 
 /**
  *
- * @author nerio
+ * @author ROCA
  */
 @Repository
 public class DetallecompraDaoImpl extends GenericDaoImpl<Detallecompra> implements DetallecompraDao{
