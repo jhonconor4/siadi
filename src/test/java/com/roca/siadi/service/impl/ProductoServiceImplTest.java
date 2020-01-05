@@ -73,7 +73,7 @@ public class ProductoServiceImplTest extends TestCase {
         
         //ENTRADAS
         Categoria cat = new Categoria();
-        cat.setId(2);
+        cat.setId(1);
         Marca mar = new Marca();
         mar.setId(1);
         Producto p = new Producto();
@@ -97,7 +97,7 @@ public class ProductoServiceImplTest extends TestCase {
         
         //RESULTADO
         Producto expResult = p;//RESULTADO DESPUES DE ejeCUtar el meTODO
-        expResult.setId(19);
+        expResult.setId(8);
         
         Producto result = pService.registrarProducto(p, f, request);
         assertEquals(expResult, result);

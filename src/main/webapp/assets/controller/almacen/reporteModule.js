@@ -13,9 +13,10 @@ angular.module('reporteModule', ['ngValidate', 'dirPagination', 'components', 'L
 
                 h.post(contextPath + '/common/listaraniosinventario')
                         .success(function (data) {
+                            console.log(data);
                             s.anios.push({id: 0, anio: 'SELECCIONE AÑO'});
                             data.forEach(function (val, i) {
-                                s.anios.push(val);
+                                s.anios.push(JSON.parse(val));
                             });
                             console.log(s.anios);
                             s.anio = s.anios[0];

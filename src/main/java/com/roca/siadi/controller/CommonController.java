@@ -57,7 +57,7 @@ import com.roca.siadi.service.TablamaestraService;
 import com.roca.siadi.service.TransferenciaService;
 import com.roca.siadi.service.UsuarioService;
 import com.roca.siadi.service.VentaService;
-
+import java.util.ArrayList;
 
 @Controller
 @RequestMapping("common")
@@ -136,67 +136,67 @@ public class CommonController {
         gsonD2 = new GsonBuilder().setDateFormat("dd/MM/yyyy").create();
     }
 
-    @RequestMapping(value = "/listarmarca", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarmarca", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarMarca() {
         return gson.toJson(marcaService.list());
     }
 
-    @RequestMapping(value = "/listarcategoria", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarcategoria", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarCategoria() {
         return gson.toJson(categoriaService.list());
     }
 
-    @RequestMapping(value = "/listarproveedor", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarproveedor", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarProveedor(@RequestBody Tablamaestra tm) {
         return gson.toJson(proveedorService.listarProveedor(tm));
     }
 
-    @RequestMapping(value = "/listarproducto", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarproducto", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarProducto() {
         return gson.toJson(productoService.list());
     }
 
-    @RequestMapping(value = "/listarcompra", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarcompra", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarCompra(@RequestBody Agencia a) {
         return gson.toJson(compraService.listarPorAgencia(a));
     }
 
-    @RequestMapping(value = "/listarpais", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarpais", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarPais() {
         return gson.toJson(paisService.list());
     }
 
-    @RequestMapping(value = "/listardepartamento", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listardepartamento", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarDepartamento(@RequestBody Pais p) {
         return gson.toJson(departamentoService.listarPorPais(p));
     }
 
-    @RequestMapping(value = "/listarprovincia", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarprovincia", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarProvincia(@RequestBody Departamento d) {
         return gson.toJson(provinciaService.listarPorDepartamento(d));
     }
 
-    @RequestMapping(value = "/listardistrito", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listardistrito", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarDistrito(@RequestBody Provincia p) {
         return gson.toJson(distritoService.listarPorProvincia(p));
     }
 
-    @RequestMapping(value = "/listaralmacen", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listaralmacen", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarAlmacen(@RequestBody Agencia ag) {
         return gson.toJson(almacenService.listarAlmacenes(ag));
     }
 
-    @RequestMapping(value = "/listarandamio", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarandamio", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarAndamio(@RequestBody Almacen a) {
         return gson.toJson(andamioService.listarPorAlmacen(a));
@@ -214,25 +214,26 @@ public class CommonController {
         return gson.toJson(cuotaService.listarCuotas(a));
     }
 
-    @RequestMapping(value = "/listarrepresentantelegal", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarrepresentantelegal", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarRepresentantelegal(@RequestBody Proveedorjuridico pj) {
         return gson.toJson(representantelegalService.listarPorProveedorjuridico(pj));
     }
 
-    @RequestMapping(value = "/listaraniosinventario", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listaraniosinventario", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarAniosinventario() {
         List<Integer> li = inventarioiniciomesService.listarAniosInventario();
-        String str = "[";
+        List<String> lr = new ArrayList<>();
+        String str = "";
         for (int i = 0; i < li.size(); i++) {
-            str += "{\"id\":" + (i + 1) + ",\"anio\":" + li.get(i) + "}";
+            str = "{\"id\":" + (i + 1) + ",\"anio\":" + li.get(i) + "}";
+            lr.add(str);
         }
-        str += "]";
-        return str;
+        return gson.toJson(lr);
     }
 
-    @RequestMapping(value = "/listaragencia", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listaragencia", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarAgencia() {
         return gson.toJson(agenciaService.list());
@@ -256,7 +257,7 @@ public class CommonController {
         return gson.toJson(usuarioService.list());
     }
 
-    @RequestMapping(value = "/listartipo", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listartipo", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarTipo(@RequestBody Tablamaestra t) {
         return gson.toJson(tablamaestraService.listarTipo(t));
@@ -267,31 +268,31 @@ public class CommonController {
 //    public String listarUnidadmedida(@RequestBody Tablamaestra u) {
 //        return gson.toJson(tablamaestraService.listarUnidadmedida(u));
 //    }
-    @RequestMapping(value = "/listarinventario", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarinventario", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarInventario(@RequestBody Agencia a) {
         return gson.toJson(inventarioService.listarPorAgencia(a));
     }
 
-    @RequestMapping(value = "/listarcomprobante", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarcomprobante", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarComprobante(@RequestBody Agencia a) {
         return gson.toJson(comprobanteService.listarPorAgencia(a));
     }
 
-    @RequestMapping(value = "/obtcomprobante", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/obtcomprobante", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String obtComprobante(@RequestBody Comprobante c) {
         return gson.toJson(comprobanteService.get(c.getId()));
     }
 
-    @RequestMapping(value = "/listarcaja", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarcaja", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarCaja(@RequestBody Agencia a) {
         return gson.toJson(cajaService.listarPorAgencia(a));
     }
 
-    @RequestMapping(value = "/listarcajero", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarcajero", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarCajero(@RequestBody Agencia a) {
         return gson.toJson(cajeroService.listarPorAgencia(a));
@@ -303,37 +304,37 @@ public class CommonController {
         return gson.toJson(usuarioService.listarUsuarioscaja(a));
     }
 
-    @RequestMapping(value = "/listarbobeda", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarbobeda", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarBobeda(@RequestBody Date fecha) {
         return gson.toJson(bobedaService.listarBobeda(fecha));
     }
 
-    @RequestMapping(value = "/listartransferencia", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listartransferencia", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarTransferencia(@RequestBody Agencia a) {
         return gsonD.toJson(transferenciaService.listarTransferencias(a));
     }
 
-    @RequestMapping(value = "/listarcliente", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarcliente", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarCliente(@RequestBody Tablamaestra tm) {
         return gson.toJson(clienteService.listarCliente(tm));
     }
 
-    @RequestMapping(value = "/listardependencia", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listardependencia", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarDependencia(@RequestBody Agencia a) {
         return gson.toJson(dependenciaService.listarDependencia(a));
     }
 
-    @RequestMapping(value = "/listarcolaborador", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarcolaborador", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarColaborador(@RequestBody Agencia a) {
         return gson.toJson(colaboradorService.listarColaborador(a));
     }
 
-    @RequestMapping(value = "/listarcontrato", produces = MediaType.APPLICATION_JSON_VALUE+";charset=UTF-8", method = RequestMethod.POST)
+    @RequestMapping(value = "/listarcontrato", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8", method = RequestMethod.POST)
     @ResponseBody
     public String listarContrato(@RequestBody Agencia a) {
         return gson.toJson(contratoService.listarContrato(a));
